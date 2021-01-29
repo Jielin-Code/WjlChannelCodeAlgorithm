@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WJLErrRecovery", "WjlErrRecovery\WjlErrRecovery.vcxproj", "{0EAEE4EC-74CF-41A3-8475-4540A9B81AA5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{2FC3E04C-0B7C-45E2-8F00-ADD0BE646179}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libWJLErrRecoverCoder", "libWJLErrRecoverCoder\libErrRecoverCoder.vcxproj", "{A341F25D-25D0-44E1-AB30-25DB40CA4B1D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0EAEE4EC-74CF-41A3-8475-4540A9B81AA5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0EAEE4EC-74CF-41A3-8475-4540A9B81AA5}.Debug|Win32.Build.0 = Debug|Win32
+		{0EAEE4EC-74CF-41A3-8475-4540A9B81AA5}.Release|Win32.ActiveCfg = Release|Win32
+		{0EAEE4EC-74CF-41A3-8475-4540A9B81AA5}.Release|Win32.Build.0 = Release|Win32
+		{A341F25D-25D0-44E1-AB30-25DB40CA4B1D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A341F25D-25D0-44E1-AB30-25DB40CA4B1D}.Debug|Win32.Build.0 = Debug|Win32
+		{A341F25D-25D0-44E1-AB30-25DB40CA4B1D}.Release|Win32.ActiveCfg = Release|Win32
+		{A341F25D-25D0-44E1-AB30-25DB40CA4B1D}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A341F25D-25D0-44E1-AB30-25DB40CA4B1D} = {2FC3E04C-0B7C-45E2-8F00-ADD0BE646179}
+	EndGlobalSection
+EndGlobal
